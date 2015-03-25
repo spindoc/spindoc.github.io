@@ -11,7 +11,7 @@ code {
 .highlight .c { color:  #A4A4A4} /* Comment */ /* comment pre python */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
-.highlight .k { color: #CF7100} /* Keyword */ /* def, for, in, return, print v python */
+.highlight .k { color: #CF8500; font-weight: bold} /* Keyword */ /* def, for, in, return, print v python */
 .highlight .l { color: #93A1A1 } /* Literal */
 .highlight .n { color: #343434} /* Name */  /* farba premennych python */
 .highlight .o { color: #4B4B4B} /* Operator */ /* farba znamienok pytho, R, ruby ako *, =, <- */
@@ -33,15 +33,15 @@ code {
 .highlight .gt { color: #93A1A1 } /* Generic.Traceback */
 .highlight .kc { color: #CB4B16 } /* Keyword.Constant */ /* v js subore konstanty */
 .highlight .kd { color: #268BD2 } /* Keyword.Declaration */
-.highlight .kn { color: #28A628} /* Keyword.Namespace */ /* farba library v R-ku */
-.highlight .kp { color: #D2691E} /* Keyword.Pseudo */ /* R-kove funcie 2 */
+.highlight .kn { color: #B58900} /* Keyword.Namespace */ /* farba library v R-ku */
+.highlight .kp { color: #FF1919} /* Keyword.Pseudo */ /* R-kove funkcie 2 */
 .highlight .kr { color: #8B0000; font-weight: bold} /* Keyword.Reserved */ /* R-kove funcie */
-.highlight .kt { color: #191970, font-weight: bold} /* Keyword.Type */
+.highlight .kt { color: #CF8500; font-weight: bold} /* Keyword.Type */
 .highlight .ld { color: #93A1A1 } /* Literal.Date */
 .highlight .m { color: #2AA198 } /* Literal.Number */
 .highlight .s { color: #000080 } /* Literal.String */ /* farba stringov v R-ku */
 .highlight .na { color: #93A1A1 } /* Name.Attribute */
-.highlight .nb { color: #B58900 } /* Name.Builtin */
+.highlight .nb { color: #B58900 } /* Name.Builtin */ /* require farba pre ruby */
 .highlight .nc { color: #268BD2 } /* Name.Class */  /* farba nazvu triedy v pythone */
 .highlight .no { color: #CB4B16 } /* Name.Constant */
 .highlight .nd { color: #268BD2 } /* Name.Decorator */
