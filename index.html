@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Archív článkov:</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <ul>
+          <li> <h4><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+                  <span>{{ post.date | date:"%b %-d, %Y" }}</span></h4>
+              </li>
+      </ul>
+    {% endfor %}
+  </ul>
+
+  </br>
+
+
+</div>

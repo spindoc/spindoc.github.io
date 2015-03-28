@@ -1,0 +1,236 @@
+/**
+ * Site header
+ */
+/* Uprava nazvu blogu a loga */
+
+.header {
+    line-height: 2.5;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.hladat {
+    word-spacing:0px;
+    display: inline-block;
+    
+}
+#btn {
+        position:relative;
+        padding: 2.3px 16px;
+        left:-12px;
+        border:2px solid #207cca;
+        background-color:#207cca;
+        color:#fafafa;
+        border-radius:18px; 
+}
+
+#q { width:150px; // sirka vyladavaca
+    font-size: 13px;
+    background:white; // farba pozadia
+    color:#000; // farba pisma vo vnutri vyladavaca
+} // farba pisma
+
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+.site-title {
+ font: bold 34px "Lobster", Lobster;
+//    font-family: 'Ultra', sans-serif;   
+    line-height: 4.5em;
+    text-transform: uppercase;
+    font-size: 24px; // velkost nazvu stranky
+//   font-weight:bold;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    &,
+    &:visited {
+        color:  #8B0000; // farba nazvu stranky
+    }
+}
+
+.slogan {
+    width: 1000px;
+   border-bottom: 1px solid #000;// $grey-color-light; // ciara header, uplne
+   border-top: 1px solid #000;// $grey-color-light; // ciara header, uplne
+    font-size:1.3em;
+    font-weight:700;
+    letter-spacing:-1px;
+    word-spacing: 45px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;  // velkost pisma vo footery
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit // posuva to cely index hore smerov k
+    // ciare (posuva nazov clanku a Posts)
+}
+
+.page-heading { 
+    font-size: 26px; // nazov indexu (Posts)
+    margin-bottom: 30px ;
+}
+
+.post-list {  // tyka sa len clankoch v indexe, teda linkov na clanky
+    margin-left: 0; // posuvanie indexu clankov na lavo-pravo
+    list-style: none;
+    line-height: 0.7;
+    ul span {color:#696969; float: right;}// tyka sa datumu v indexe
+    ul { border-bottom: 1.5px dashed #ddd; margin-bottom: 16px;}
+    li {list-style: disc}
+}
+
+
+
+//ul.posts-list ul span {float:right; font-family:monofur, monaco, courier;
+// color:#fff; } /* farba datumu */ 
+
+.post-meta {
+    font-size:1.0em;
+    color: #aaa; // farba datumov
+    text-align:left;
+    //color: #8B008B;
+    //float: right;
+    //width: 100px
+}
+
+.post-link {
+    display: block; // block znamena, ze text ide za sebou oddeleny po
+    // s medzerami 
+    font-size: 17.5px; // velkost pisma nazvov clankov - UZ NEMA VPLYV !!!
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header { // od hornej deliacej ciary po datum clanku - to je HEADER !!!
+    margin-bottom: 30px; //$spacing-unit; // vzdialenost textu od nazvu clanku
+}
+
+.post-title {
+    font-size: 26px;  // velkost pisma v nazve clanku
+    letter-spacing: 0px; // medzery medzi pismenami v nazve clanku
+    line-height: 0.5; // vzdialenost nazvu clanku od hornej deliacej ciary
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.black{color: #000}
+.grey{color: #696969}
+
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h1 {
+        font-size: 22px; // velkost pisma headeru ##
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+    h2 {
+        font-size: 32px; // velkost pisma headeru ##
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 22px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+

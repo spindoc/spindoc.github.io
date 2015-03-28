@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h2 class="page-heading">Linux</h2>
+  <ul class="post-list">
+      {% for post in site.categories.linux %} <!-- musi to tam byť !! -->
+        <ul>
+        <li><h4><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+                <span>{{ post.date | date:"%b %-d, %Y"}}</span></h4></li>
+        </ul>
+    {% endfor %}
+  </ul>
+
+</div>

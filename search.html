@@ -1,0 +1,50 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+      <!-- Search results placeholder -->
+      <p data-search-found>
+        <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+      </p>
+      <div data-search-results></div>
+
+        <div id="results">
+            
+        </div>
+
+        <script>
+            var JEKYLL_POSTS = [];
+            {% for post in site.posts %}
+            JEKYLL_POSTS.push({
+                title: "{{ post.title }}",
+                link: "{{ post.url | prepend: site.baseurl }}",
+                content: "{{ post.content | strip_newlines | strip_html }}"
+            }); 
+            {% endfor %}
+        </script>
+        <script src="{{ "/js/search.js" | prepend: site.baseurl }}"></script>
+        <script>
+            new jekyllSearch({
+                selector: "#results",
+                properties: ["title", "content"]
+            });
+        </script>
+
+
+        <!--  <h2><a href="##Url##">##Date##</a></h2> -->
+
+      <!-- Search result template -->
+      <script type="text/x-template" id="search-result">
+        <div>
+          <li><h2><a href="##Url##">##Title##</a></h2></li>
+        </div>
+      </script>
+
+      <!-- jQuery - required but can be moved to the <head> -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+      <!-- Search script - Must appear after template -->
+      <script src="/scripts/search.js"></script>
+

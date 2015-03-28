@@ -1,0 +1,167 @@
+
+[
+
+
+
+
+    
+    {
+        "title": "Testovanie",
+        "content": "Toto je citacia kde sa pouzil iba jeden znak na rozdiel od carpetu.\nAutomaticky mi to generuje ako &lt;code&gt; object\n\n\n\n\n\nYesterday, the autobiographical post I wrote for The\nSetup went live. I wrote that post\nover a year ago and then entered into an epic battle with\n@waferbaby about the length of my &quot;Who are\nyou, and what do you do?&quot; section. He said it was too long. I said it could\nnot be . And so the post sat for a \n\n\nČo sa stane ak  toto bude ruzove? Aj s line breakom cez &lt;br/&gt; mi\nberia html object - no VYBORNE !!!\n\n\nrequire &#39;redcarpet&#39;\nmarkdown = Redcarpet.new(&quot;Hello World!&quot;)\nputs markdown.to_html\n\n\nbolog\n\nreturn now iand text int\n\n\nblog\n\ntoto fungueje teiz\nalert(&#39;hello&#39;);\nreturn now iand text int\n\n\nbold italic \nAbout a month ago I decided that it was foolish to let the words I had written rot on my hard d\nrive and so I did the only thing I knew how to do: overreact. So I cut the original nine-hundre\nd words of my bio down to fourteen words and resubmitted it to Daniel. Those are the words you see in the post now.\n\n$ git clone git://github.com/hugomaiavieira/pygments-style-github.git\n\n$ cd pygments-style-github/\n\n$ (sudo) python setup.py install\n\n$ pygmentize -S github -f html &gt; syntax.css\n\n\nniecoc\n\n$ grep -Ril &#39;markdown&#39; \n\n\n$ pwd home/majo\n\nnieco\n\n$ npm i -g gulp\n\n\n\n\n| First Header  | Second Header |\n| ------------- | ------------- |\n| Content Cell  | Content Cell  |\n| Content Cell  | Content Cell  |\n\nreturn\n\nreturn &quot;Hello!&quot;;\ndef(i):\n    for i in range(0,5):\n        print(i)\n\nretur\n\nreturn &quot;Hello!&quot;;\n\nPosts handled in a special way by Jekyll. The date you specify in the filename is used to \nconstruct the URL in the generated site. This post, for instance, ends up at\nhttp://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html.\n\nFiles that do not reside in directories prefixed with an underscore are mirrored into a corresp\nonding directory structure in the generated site. If a file does not have a YAML preface, it is\nnot run through the Liquid interpreter. Binary files are copied over unmodified.\n\n$ jekyll /path/to/raw/site /path/to/place/generated/site\n\n$ jekyll /path/to/raw/site /path/to/place/generated/site\n\nnejakye text\n\nNovy titul\n\nnejaky text\n\n$ jekyll /path/to/raw/site /path/to/place/generated/site\n\n\ndalsi text\n\n# Public: Duplicate some text an abitrary number of times.\n#\n# text  - The String to be duplicated.\n# count - The Integer number of times to duplicate the text.\n#\n# Examples\n#\n#   multiplex(&#39;Tom&#39;, 4)\n#   # =&gt; &#39;TomTomTomTom&#39;\n#\n# Returns the duplicated String.\ndef multiplex(text, count)\n    text * count\n    return(text)\nprint(count)\n\nHele dalsi kod\n\nklass = Class.new\n\nTakze tu je python doplnovanie\n\n@require\nfor i in range(0,5):\n    l = []\n    l.append(i)\n\n# comment\nclass something\nprint(i)\n\ndef multiple(text, count)\n    text * count\n    return(text)\nprint(count)\n\n\n# tak tu mame R-kovy kod\nlibrary(ggplot2)\n\ncentre &lt;- function(x, type, ...) {\n  switch(type,\n         mean = mean(x),\n         median = median(x),\n         trimmed = mean(x, trim = .1))\n}\n\nmyVar1\nmyVar.2\ndata$x\nfoo &quot;bar&quot; baz\n# test &quot;test&quot;\n&quot;test # test&quot;\n\n(123) (1) (10) (0.1) (.2) (1e-7)\n(1.2e+7) (2e) (3e+10) (0x0) (0xa)\n(0xabcdef1234567890) (123L) (1L)\n(0x10L) (10000000L) (1e6L) (1.1L)\n(1e-3L) (4123.381E-10i)\n(3.) (3.E10) # BUG: .E10 should be part of number\n\nclean &lt;- data.frame(old = c(&quot;[()-,]&quot;,&quot;std&quot;,&quot;BodyBody&quot;,&quot;mean&quot;), new =\nc(&quot;&quot;,&quot;Std&quot;, &quot;Body&quot;,&quot;Mean&quot;))\n# clean the features labels through lapply with gsub conditions - change\n# old variables for new variables\ng &lt;- lapply(1:4, function(x) features[, label := gsub(clean$old[x],\nclean$new[x], label)])\n# change train_test colnames as sucject, activity and features label names\nsetnames(train_test, c(&quot;subject&quot;, &quot;activity&quot;, features$label))\nlibrary(data.table)\n# create data table for merging propdmgexp\nprop_token &lt;- data.table(propdmgexp = c(&quot;K&quot;, &quot;M&quot;, &quot;B&quot;), dollars =\nas.numeric(c(&quot;1000&quot;, &quot;10e5&quot;, &quot;10e8&quot;)))\n\n# merge and convert propdmgexp tokens into dollars\nprop_merge &lt;- merge(prop_token, data, by = &quot;propdmgexp&quot;)\n\nprop_merge\n## Change if you want other options\nrequire(&quot;knitr&quot;)\nopts_chunk$set(fig.width=5, fig.height=5, cache=TRUE)\n\n## Load knitcitations with a clean bibliography\nlibrary(knitcitations)\ncleanbib()\ncite_options(tooltip=TRUE)\n\n## I made my own citing function since citep() doesn&#39;t work like I want to with\n## urls that are not really pages themselves like part of a GitHub repo.\nmycitep &lt;- function(x, short=NULL, year=substr(date(), 21, 24), tooltip=TRUE) {\nres &lt;- tmp &lt;- citep(x)\nif(!is.null(short)) {\nres &lt;- gsub(&quot;&gt;&lt;/a&gt;&quot;, paste0(&quot;&gt;&quot;, short, &quot;&lt;/a&gt;&quot;), tmp)\n}\nif(tooltip) {\nres &lt;- gsub(&quot;\\\\?\\\\?\\\\?\\\\?&quot;, year, res)\n}\nres &lt;- gsub(&quot;span&gt; &quot;, &quot;span&gt;&quot;, res)\nres\n}\n\n## Here&#39;s an example\n# mycitep(&quot;https://github.com/lcolladotor/lcollado753&quot;, &quot;Collado, 2013&quot;)\nwrite.bibtex(c(&quot;knitcitations&quot; = citation(&quot;knitcitations&quot;)), file = &quot;pkgs.bib&quot;)\nbib &lt;- read.bibtex(&quot;pkgs.bib&quot;)\n\n\nStart post\n\nReferences\n\nCitations made with knitcitations r mycitep(bib[[&quot;knitcitations&quot;]], &quot;Boettiger, 2013&quot;).\n\n## Print bibliography\nbibliography()\n\n\nReproducibility\n\nsessionInfo()\n\n",
+        "link": "/zdravie/2015/03/22/Testovanie.html",
+        "date": "2015-03-22 00:00:00 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "PHP for winners",
+        "content": "You’ll find this php in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
+        "link": "/psychika/2014/11/11/php-for-winners.html",
+        "date": "2014-11-11 16:34:28 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "Node.js is slow - what gives?",
+        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and\nre-build the site to see your changes. You can rebuild the site in many\ndifferent ways, but the most common way is to run jekyll serve, which\nlaunches a web server and auto-regenerates your site when a file is\nupdated.\n\nTo add new posts, simply add a file in the _posts directory that follows\nthe convention YYYY-MM-DD-name-of-post.ext and includes the necessary\nfront matter. Take a look at the source for this post to get an idea about\nhow it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name) puts &quot;Hi, #{name}&quot; end\nprint_hi(&#39;Tom&#39;) #=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most\nout of Jekyll. File all bugs/feature requests at Jekyll’s GitHub\nrepo. If you have questions, you can ask them on Jekyll’s\ndedicated Help repository.\n\n\nSeve\nJuh\n\n\nHeader 1\n\nHeader 2\n\nHeader 3\n\nThis is not a code span!\n",
+        "link": "/ezoterika/2014/11/11/node-js-is-slow-what-gives.html",
+        "date": "2014-11-11 16:34:28 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "LOL at CSS",
+        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
+        "link": "/linux/2014/11/11/lol-at-css.html",
+        "date": "2014-11-11 16:34:28 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "Intro to PHP",
+        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
+        "link": "/vzdelavanie/2014/11/11/intro-to-php.html",
+        "date": "2014-11-11 16:34:28 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "HTML - how to meet Llamas",
+        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
+        "link": "/zdravie/2014/11/11/html-how-to-meet-llamas.html",
+        "date": "2014-11-11 16:34:28 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "Advanced Node.js",
+        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
+        "link": "/linux/2014/11/11/advanced-node-js.html",
+        "date": "2014-11-11 16:34:28 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "33 things you wouldn't believe about CSS",
+        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nnovy čiara offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n\ndef new(I):\n    return(I)\nprint(I)\n\n\nThis⋅para⋅line⋅starts⋅at⋅the⋅first⋅column.⋅However,\n⋅⋅⋅⋅⋅⋅the⋅following⋅lines⋅can⋅be⋅indented⋅any⋅number⋅of⋅spaces/tabs.\n⋅⋅⋅The⋅para⋅continues⋅here.\n\n⋅⋅This⋅is⋅another⋅paragraph,⋅not⋅connected⋅to⋅the⋅above⋅one.⋅But⋅⋅\nwith⋅a⋅hard⋅line⋅break.⋅\\\nAnd⋅another⋅one.\n",
+        "link": "/jekyll/update/2014/11/11/33-things-you-wouldnt-believe-about-css.html",
+        "date": "2014-11-11 16:34:28 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "You're up and running!",
+        "content": "Skuska nazvu a jeho farby\n\n\n\nThe easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the Jekyll Now repository on GitHub.\n",
+        "link": "/vzdelavanie/2014/03/03/Hello-World.html",
+        "date": "2014-03-03 00:00:00 +0100",
+        "excerpt": "",
+        "seach_omit": ""
+    }
+    
+    
+
+
+
+    
+    ,{
+        "title": "About",
+        "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com\n\nYou can find the source code for the Jekyll new theme at: github.com/jglovier/jekyll-new\n\nYou can find the source code for Jekyll at github.com/jekyll/jekyll\n",
+        "link": "/about.html",
+        "date": null,
+        "excerpt": null,
+        "seach_omit": ""
+    }
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    ,{
+        "title": "Dan's Tech Blog",
+        "content": "\n  Psychika\n  \n      {% for post in site.categories.psychika %} \n        \n        {{ post.title }}\n                {{ post.date | date:\"%b %-d, %Y\"}}\n        \n    {% endfor %}\n  \n\n\n",
+        "link": "/psychika.html",
+        "date": null,
+        "excerpt": null,
+        "seach_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "Search",
+        "content": "      \n      \n         result(s) found for &ldquo;&rdquo;.\n      \n      \n\n        \n            \n        \n\n        \n        \n        \n\n\n        \n\n      \n      \n\n      \n      \n\n      \n      \n\n",
+        "link": "/search/",
+        "date": null,
+        "excerpt": null,
+        "seach_omit": ""
+    }
+    
+    
+
+    
+
+    
+
+]
