@@ -1,11 +1,8 @@
-/**
- * Site header
- */
-/* Uprava nazvu blogu a loga */
 
 .header {
-    line-height: 2.5;
-    margin-bottom: 50px;
+    line-height: 2.5; // uprave vzdialenosti navigacnych ciar
+    margin-bottom: 50px; // vzdialenost Archivu clankov od navigacnych
+    // ciar
     text-align: center;
 }
 
@@ -15,6 +12,7 @@
     display: inline-block;
     
 }
+
 #btn {
         position:relative;
         padding: 2.3px 16px;
@@ -38,100 +36,61 @@
 }
 
 .site-title {
- font: bold 34px "Lobster", Lobster;
-//    font-family: 'Ultra', sans-serif;   
-    line-height: 4.5em;
-    text-transform: uppercase;
-    font-size: 24px; // velkost nazvu stranky
+     //'Lobster', Georgia, Times, serif;
+    font-family: Georgia, Times, serif;
+//    text-transform: uppercase;
+    font-size: 20px; // velkost nazvu stranky
+    font-weight: bold;
 //   font-weight:bold;
-    letter-spacing: -1px;
-    word-spacing: 5px;
+//    word-spacing: 25px;
+    position:absolute;
+    margin: -75px 0px 0px 325px;
+    //margin-top:30px; // vzdialenost nazvu stranky od horneho konce
+    //margin-bottom:-25px; // vzdialenost nav baru od nazvu stranky
     &,
     &:visited {
-        color:  #8B0000; // farba nazvu stranky
+        color:  #FFFFE0;//              //#9ACD32;   // farba nazvu stranky
     }
 }
 
+.black{color: #fff}
+.grey{color: #aaa}
+
 .slogan {
-    width: 1000px;
-   border-bottom: 1px solid #000;// $grey-color-light; // ciara header, uplne
-   border-top: 1px solid #000;// $grey-color-light; // ciara header, uplne
-    font-size:1.3em;
+    width: 1024px;
+    background: #000;
+    border-bottom: 1px solid #ccc;// $grey-color-light; // ciara header, uplne
+    font-size:1.2em;
     font-weight:700;
     letter-spacing:-1px;
     word-spacing: 45px;
     display: inline-block;
-    margin-top: 5px;
+    //margin-top: 5px; // vzdialenost nav baru od nazvu stranky
 }
 
 /**
  * Site footer
  */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+
+#footer {
+border-top:2px solid #D3D3D3;
+clear:both;
+color:#800000;
+font-size:0.9em;
+line-height:2.6em;
+margin:0 auto;
+padding:8px 0;
+text-align:right;
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+#footer p {
+margin:0;
+padding:0;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
+#footer a {
+color:black
 }
-
-.footer-col-wrapper {
-    font-size: 15px;  // velkost pisma vo footery
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
 
 
 /**
@@ -195,8 +154,6 @@
     }
 }
 
-.black{color: #000}
-.grey{color: #696969}
 
 
 .post-content {
