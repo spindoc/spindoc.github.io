@@ -108,6 +108,7 @@ color:black
 .page-heading { 
     font-size: 26px; // nazov indexu (Posts)
     margin-bottom: 30px ;
+    border-bottom: 1px solid #eee;
 }
 
 .post-list {  // tyka sa len clankoch v indexe, teda linkov na clanky
@@ -115,7 +116,7 @@ color:black
     list-style: none;
     line-height: 0.7;
     ul span {color:#696969; float: right;}// tyka sa datumu v indexe
-    ul { border-bottom: 1.5px dashed #ddd; margin-bottom: 16px;}
+    ul { border-bottom: 2px dashed #eef; margin-bottom: 16px;}
     li {list-style: disc}
 }
 

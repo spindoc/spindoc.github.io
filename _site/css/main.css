@@ -83,12 +83,13 @@ h1 a:link, h1 a:visited {
 
  */
 blockquote {
-  color: #696969;
+  color: #000;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: -1px;
-  padding-left: 10px;
-  font-style: italic;
+  padding-left: 28px;
+  padding-top: 10px;
+  padding-bottom: 0.09px;
   background: #E6F3F8; }
   blockquote > :last-child {
     margin-bottom: 0; }
@@ -214,7 +215,8 @@ pre {
 
 .page-heading {
   font-size: 26px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee; }
 
 .post-list {
   margin-left: 0;
@@ -224,7 +226,7 @@ pre {
     color: #696969;
     float: right; }
   .post-list ul {
-    border-bottom: 1.5px dashed #ddd;
+    border-bottom: 2px dashed #eef;
     margin-bottom: 16px; }
   .post-list li {
     list-style: disc; }

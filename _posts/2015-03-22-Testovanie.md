@@ -5,7 +5,7 @@ categories: zdravie
 ---
 
 
-`Toto je citacia kde sa pouzil iba jeden znak na rozdiel od carpetu.
+Tak zvany `Toto je citacia kde sa pouzil iba jeden znak na rozdiel od carpetu.
 Automaticky mi to generuje ako <code> object`
 
 ***
@@ -19,8 +19,9 @@ over a year ago and then entered into an epic battle with
 you, and what do you do?" section. He said it was too long. I said it could
 not be . And so the post sat for a 
 
-> Čo sa stane ak <br/> toto bude ruzove? Aj s line breakom cez `<br/>` mi
-> beria html object - no VYBORNE !!!
+> - Čo sa stane ak  toto bude ruzove? Aj s line breakom cez `<br/>` mi
+
+> - beria html object - no VYBORNE !!!
 
 
 ```ruby
