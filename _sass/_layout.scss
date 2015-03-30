@@ -1,9 +1,11 @@
 
 .header {
     line-height: 2.5; // uprave vzdialenosti navigacnych ciar
-    margin-bottom: 50px; // vzdialenost Archivu clankov od navigacnych
+//    margin-bottom: 50px; // vzdialenost Archivu clankov od navigacnych
     // ciar
     text-align: center;
+//    border-left: 171px solid #4169E1;
+//    border-right: 171px solid   #4169E1;
 }
 
 
@@ -37,29 +39,29 @@
 
 .site-title {
      //'Lobster', Georgia, Times, serif;
-    font-family: Georgia, Times, serif;
-//    text-transform: uppercase;
-    font-size: 20px; // velkost nazvu stranky
+    font-family: Verdana, Times, serif;
+    text-transform: uppercase;
+    font-size: 17px; // velkost nazvu stranky
     font-weight: bold;
 //   font-weight:bold;
 //    word-spacing: 25px;
     position:absolute;
-    margin: -75px 0px 0px 325px;
+    margin: -39px 0px 0px 30px;
     //margin-top:30px; // vzdialenost nazvu stranky od horneho konce
     //margin-bottom:-25px; // vzdialenost nav baru od nazvu stranky
     &,
     &:visited {
-        color:  #FFFFE0;//              //#9ACD32;   // farba nazvu stranky
+        color: #000; //323232;  //#FFFFE0;//              //#9ACD32;   // farba nazvu stranky
     }
 }
 
-.black{color: #fff}
-.grey{color: #aaa}
+.black{color:#FFF5EE; }
+.grey{color:#ccc}
 
 .slogan {
-    width: 1024px;
-    background: #000;
-    border-bottom: 1px solid #ccc;// $grey-color-light; // ciara header, uplne
+    // font-family: verdana, arial, clean, sans-serif; // obycajny text
+  width: 1024px;
+    background: #323232;
     font-size:1.2em;
     font-weight:700;
     letter-spacing:-1px;
@@ -73,7 +75,7 @@
  */
 
 #footer {
-border-top:2px solid #D3D3D3;
+border-top:1px solid #D3D3D3;
 clear:both;
 color:#800000;
 font-size:0.9em;
@@ -97,7 +99,9 @@ color:black
  * Page content
  */
 .page-content {
-    padding: $spacing-unit // posuva to cely index hore smerov k
+    //border-left: 171px solid #4169E1;
+    //border-right: 171px solid   #4169E1;
+    padding: 80px;// posuva to cely index hore smerov k
     // ciare (posuva nazov clanku a Posts)
 }
 

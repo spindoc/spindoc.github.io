@@ -17,6 +17,8 @@ dl, dd, ol, ul, figure {
 body {
     font-family: $base-font-family; // pisme pre skoro vsetky objekty
     font-size: $base-font-size;
+   border-left: 170px solid #eee; //#E6E6E6;
+   border-right: 170px solid #eee;//#E6E6E6;
     line-height: $base-line-height; // vzdialenost riadkov clanko a
     // vsetkych objektov hore 
     font-weight: 300;  // hrubka bezneho textu
@@ -111,12 +113,12 @@ h1 a:link, h1 a:visited {color: #000}
 
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    color:  #800000;
+    font-size: 16px;
     letter-spacing: -1px;
+    padding-left: 10px;
     font-style: italic;
+    background: #E6F3F8;
 
     > :last-child {
         margin-bottom: 0;
@@ -128,10 +130,10 @@ blockquote {
  * Code formatting
  */
 pre,
-code {
+code {  // apostrof a code !!
     font-size: 15px; // velkost pisma vsetkych kodov, aj apostrofov
     // okrem blockquote
-    border: 1px solid $grey-color-light;
+    // ovplyvnuje apostrof aj code !!!
     border-radius: 3px;
     background-color: #FFF0ED;
 }
@@ -142,7 +144,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    //overflow-x: scroll;
 
     > code {
         border: 0;

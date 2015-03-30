@@ -1,7 +1,9 @@
 .highlight { 
-  background-color: #eef;
+  /* background-color: #eef; */
   margin: 20px 0 20px 0;
   overflow: hidden;
+  color: #000;
+
 }
 
 code {
