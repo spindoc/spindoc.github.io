@@ -83,8 +83,9 @@ h1 a:link, h1 a:visited {
 
  */
 blockquote {
-  color: #800000;
+  color: #696969;
   font-size: 16px;
+  font-weight: bold;
   letter-spacing: -1px;
   padding-left: 10px;
   font-style: italic;
@@ -170,18 +171,8 @@ pre {
   text-align: center;
   width: 100%; }
 
-.site-title {
-  font-family: Verdana, Times, serif;
-  text-transform: uppercase;
-  font-size: 17px;
-  font-weight: bold;
-  position: absolute;
-  margin: -39px 0px 0px 30px; }
-  .site-title, .site-title:visited {
-    color: #000; }
-
 .black {
-  color: #FFF5EE; }
+  color: gold; }
 
 .grey {
   color: #ccc; }
