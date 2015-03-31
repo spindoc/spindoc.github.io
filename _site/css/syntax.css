@@ -13,7 +13,7 @@ code {
 .highlight .c { color:  #A4A4A4} /* Comment */ /* comment pre python */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
-.highlight .k { color: #CF8500; font-weight: bold} /* Keyword */ /* def, for, in, return, print v python */
+.highlight .k { color: #CF8500; font-weight: 300} /* Keyword */ /* def, for, in, return, print v python */
 .highlight .l { color: #93A1A1 } /* Literal */
 .highlight .n { color: #343434} /* Name */  /* farba premennych python */
 .highlight .o { color: #4B4B4B} /* Operator */ /* farba znamienok pytho, R, ruby ako *, =, <- */

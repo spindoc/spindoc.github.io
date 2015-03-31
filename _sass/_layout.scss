@@ -108,7 +108,7 @@ color:black
 .page-heading { 
     font-size: 26px; // nazov indexu (Posts)
     margin-bottom: 30px ;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px dashed #ddd;
 }
 
 .post-list {  // tyka sa len clankoch v indexe, teda linkov na clanky
@@ -129,6 +129,7 @@ color:black
     font-size:1.0em;
     color: #aaa; // farba datumov
     text-align:left;
+    margin-top:-5px;
     //color: #8B008B;
     //float: right;
     //width: 100px
@@ -150,9 +151,10 @@ color:black
 }
 
 .post-title {
-    font-size: 26px;  // velkost pisma v nazve clanku
+    font-size: 24px;  // velkost pisma v nazve clanku
     letter-spacing: 0px; // medzery medzi pismenami v nazve clanku
-    line-height: 0.5; // vzdialenost nazvu clanku od hornej deliacej ciary
+    line-height: 1.5; // vzdialenost nazvu clanku od hornej deliacej ciary
+    border-bottom: 1px dashed #ddd;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -163,9 +165,11 @@ color:black
 
 .post-content {
     margin-bottom: $spacing-unit;
+    line-height:1.8;
 
     h1 {
-        font-size: 22px; // velkost pisma headeru ##
+        font-size: 17px; // velkost pisma headeru ##
+        font-weight: bold;
 
         @include media-query($on-laptop) {
             font-size: 22px;

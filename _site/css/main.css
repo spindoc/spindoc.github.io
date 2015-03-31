@@ -15,6 +15,9 @@ dl, dd, ol, ul, figure {
   dl ul li, dd ul li, ol ul li, ul ul li, figure ul li {
     margin-left: 25px; }
 
+strong {
+  font-weight: bold; }
+
 /**
  * Basic styling
  */
@@ -76,23 +79,22 @@ a {
   color: #0000CD;
   text-decoration: none; }
   a:hover {
-    color: #000;
+    color: brown;
     text-decoration: underline; }
-
-h1 a:link, h1 a:visited {
-  color: #000; }
 
 /**
  * Blockquotes
 
  */
 blockquote {
-  font-family: Georgia, sans;
-  color: #0000CD;
-  font-size: 16.0px;
+  font-family: Verdana, sans;
+  color: #CC0000;
+  font-size: 14.5px;
   font-weight: 600;
   letter-spacing: -1px;
-  background: #ffe0d9; }
+  background: #ffe0d9;
+  margin-top: 25px;
+  margin-bottom: 25px; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -101,9 +103,9 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
-  border-radius: 3px;
-  background-color: #E6F3F8; }
+  font-size: 14px;
+  background-color: #E6F3F8;
+  border: 1px solid #eee; }
 
 code {
   padding: 1px 5px; }
@@ -218,7 +220,7 @@ pre {
 .page-heading {
   font-size: 26px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eee; }
+  border-bottom: 1px dashed #ddd; }
 
 .post-list {
   margin-left: 0;
@@ -236,7 +238,8 @@ pre {
 .post-meta {
   font-size: 1.0em;
   color: #aaa;
-  text-align: left; }
+  text-align: left;
+  margin-top: -5px; }
 
 .post-link {
   display: block;
@@ -249,17 +252,20 @@ pre {
   margin-bottom: 30px; }
 
 .post-title {
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: 0px;
-  line-height: 0.5; }
+  line-height: 1.5;
+  border-bottom: 1px dashed #ddd; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  line-height: 1.8; }
   .post-content h1 {
-    font-size: 22px; }
+    font-size: 17px;
+    font-weight: bold; }
     @media screen and (max-width: 800px) {
       .post-content h1 {
         font-size: 22px; } }
