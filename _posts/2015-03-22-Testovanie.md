@@ -57,7 +57,12 @@ $ cd pygments-style-github/
 $ (sudo) python setup.py install
 
 $ pygmentize -S github -f html > syntax.css
+
 ```
+
+> - `\ + q` = insert mode ulozi a vypne buffer
+
+* nejaky text tak ako ma byt
 
 niecoc
 
