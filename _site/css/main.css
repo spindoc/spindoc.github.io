@@ -10,6 +10,10 @@ dl, dd, ol, ul, figure {
   p h4, blockquote h4, pre h4, hr h4,
   dl h4, dd h4, ol h4, ul h4, figure h4 {
     font-size: 16px; }
+  body ul li, h1 ul li, h2 ul li, h3 ul li, h4 ul li, h5 ul li, h6 ul li,
+  p ul li, blockquote ul li, pre ul li, hr ul li,
+  dl ul li, dd ul li, ol ul li, ul ul li, figure ul li {
+    margin-left: 25px; }
 
 /**
  * Basic styling
@@ -84,16 +88,13 @@ h1 a:link, h1 a:visited {
  */
 blockquote {
   font-family: Georgia, sans;
-  color: #000;
+  color: #0000CD;
   font-size: 16.0px;
   font-weight: 600;
   letter-spacing: -1px;
-  padding-left: 28px;
-  background: #E6F3F8; }
+  background: #ffe0d9; }
   blockquote > :last-child {
     margin-bottom: 0; }
-  blockquote li {
-    margin-left: 10px; }
 
 /**
  * Code formatting
@@ -102,7 +103,7 @@ pre,
 code {
   font-size: 15px;
   border-radius: 3px;
-  background-color: #FFF0ED; }
+  background-color: #E6F3F8; }
 
 code {
   padding: 1px 5px; }

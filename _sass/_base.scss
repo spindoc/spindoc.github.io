@@ -7,6 +7,7 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
     h4 {font-size: 16px; } // velkost pisma linkov na clanky
+    ul li{margin-left: 25px;}
 }
 
 
@@ -68,7 +69,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: 0 // $spacing-unit; // posuvanie obsahu indexu vlavo-vpravo
+    margin-left: 0; // $spacing-unit; // posuvanie obsahu indexu vlavo-vpravo
 }
 
 li {  // nemeni nic
@@ -114,17 +115,15 @@ h1 a:link, h1 a:visited {color: #000}
  */
 blockquote {
       font-family:Georgia, sans;
-    color:  #000;
+    color:#0000CD;
     font-size: 16.0px;
     font-weight:600;
     letter-spacing: -1px;
-    padding-left: 28px;
-    background: #E6F3F8;
+    background:#ffe0d9;
 
     > :last-child {
         margin-bottom: 0;
     }
-    li {margin-left:10px;}
 }
 
 
@@ -137,7 +136,7 @@ code {  // apostrof a code !!
     // okrem blockquote
     // ovplyvnuje apostrof aj code !!!
     border-radius: 3px;
-    background-color: #FFF0ED;
+    background-color: #E6F3F8;
 }
 
 code {

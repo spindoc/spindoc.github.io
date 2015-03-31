@@ -8,9 +8,15 @@ categories: zdravie
 Tak zvany `Toto je citacia kde sa pouzil iba jeden znak na rozdiel od carpetu.
 Automaticky mi to generuje ako <code> object`
 
-***
+* jeden krat a teraz druhy
+* dva a jeden su tri a co dalej
+* tri oriesky pre popolusku
 
-<br/>
+* jeden jeden krat a teraz druhy
+
+* jeden jeden krat a teraz druhy
+
+* jeden jeden krat a teraz druhy
 
 Yesterday, [the autobiographical post I wrote for The
 Setup](http://tom.preston-werner.usesthis.com/) went live. I wrote that post
