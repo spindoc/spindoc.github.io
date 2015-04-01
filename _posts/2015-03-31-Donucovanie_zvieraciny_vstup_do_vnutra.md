@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Donucovanie zvieraciny a sila vôle
+title: Donucovanie zvieraciny a vstup do vnútra
 categories: ezoterika
 ---
 
@@ -20,8 +20,8 @@ oblasti. Dotknem sa časti tela a k nej musím **priradiť obrázok**. Je to
 sčasti aj veštecká technika. Keď sa dotknem týchto oblastí tak je dobré
 `spôsobiť si bolesť` v tej oblasti.
 
-> - Do orgánov musím vždy  prenikať cez nervové dráhy a vždy sa musím
-> presadiť na úkor zvieraciny. Nenechať sa ovládať tupou zvieracinou.
+> - Do orgánov musím vždy  prenikať  cez nervové dráhy a vždy sa musím
+> presadiť na úkor zvieraciny. Nenechať sa ovládať tupou zvieracinou.
 
 * Musím si uvedomiť či beriem ezoteriku `ako hru` alebo si chcem vážne
 budovať automaty v mozgu.
@@ -38,7 +38,7 @@ aby pri každom donucovaní a bolesti tvorili látky blaženosti a ja si tak
 zvyknem na bolesť a nebude mi robiť problémy.
 
 Posilovanie šamnského a pravekého vedomie posiluje moje ľudské správanie a
-oslabuje zvieracie. Pestovanie šamanskýčh a pravekých techník nesmiem
+oslabuje zvieracie. Pestovanie šamanských a pravekých techník nesmiem
 podceniť.
 
 Joga je základ pravekých a vlastne všetkýčh ezoterických techník. Človek

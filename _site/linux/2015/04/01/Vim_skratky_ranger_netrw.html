@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Vim skratky, netrw a ranger</title>
+  <meta name="description" content="Vim skratky">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  <link rel="canonical" href="/linux/2015/04/01/Vim_skratky_ranger_netrw.html">
+</head>
+
+ 
+  <body>
+      <!--  <div class="wrapper"> --> <!-- toto urcje sirku hornej ciary !!! -->
+       <div class="header">
+
+          <!-- <img style="max-width:400px;" src="/images/banner_2.jpg"> -->
+        <img style="max-width:1024px;" src="/images/chaos.jpg">
+        <!--      <div class="site-title">
+            Poznámkový &nbsp; blog
+            </div> -->
+
+        <nav class="slogan"> 
+                <a href="/index.html" class="grey">Domov</a> 
+                <a href="/zdravie.html" class="black">Zdravie</a> 
+                <a href="/psychika.html" class="black">Psychika</a> 
+                <a href="/ezoterika.html" class="black">Ezoterika</a> 
+                <a href="/linux.html" class="black">Linux</a> 
+                <a href="/vzdelavanie.html" class="black">Vzdelávanie</a> 
+          <nav class="hladat">
+          <form method="get" action="/search" data-search-form>
+            <input type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
+            <input type="submit" name="btn" id="btn" value="Hľadaj" />
+          </form>
+          </nav>
+          </nav>
+    </div>
+
+
+        <!-- </div> -->
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Vim skratky, netrw a ranger</h1>
+    <p class="post-meta">Apr 1, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <h1>Vim skratky</h1>
+
+<p><strong>Skratky s lomkou</strong></p>
+
+<p><code>[\ + r]</code> - otvorenie rangeru vo vime</p>
+
+<p><code>[\ + w]</code> - uloženie súbore v insert mode</p>
+
+<p><code>[\ + q]</code> - uloží a vypne súbor keď je v inser mode</p>
+
+<p><code>[\ + jj]</code> - vyhodi mi okno Explore</p>
+
+<p><code>[\ + kk]</code> - vrati ma z Explore do vimu (bufferu)</p>
+
+<p><code>[\ + n]</code> - vo vim-markdown sa posúvam dole cez jednolivé header-y</p>
+
+<p><code>[\ + u]</code> - vo vim-markdown sa posúvam hore ku jednotlivým headerom</p>
+
+<p><strong>Hľadanie</strong></p>
+
+<p><code>[F + znak]</code> - nájde mi znak smerom dozadu (do ľava)</p>
+
+<p><code>[*]</code> - v normal mode vyhľadá slovo na ktorom je kurzom po stlačeni *</p>
+
+<p><code>[g*]</code> - v normal mode vyhľadá slovo aj suffixam a prefixami</p>
+
+<p><code>[;]</code> - opakovanie zanku po f alebo F (funkcia hľadať)</p>
+
+<p><strong>Insert mode</strong></p>
+
+<p><code>[&lt;C-r&gt; +]</code> - v insert mode vloží skopírovaný link</p>
+
+<p><code>[&lt;C-r&gt; *]</code> - v insert mode vloží text zo schránky browsera označení myšou</p>
+
+<p><code>[&lt;C-d&gt;]</code> - vymaže znak v insert mode smerom dopredu</p>
+
+<p><code>[&lt;C-b]</code> - pohyb kurzorom smerom dozadu v insert mode</p>
+
+<p><code>[0-9 + i + znak]</code> - v normal mode napíšem číslo a potom v insert mode
+napíšem znak, ktorý sa repetitívne vloží</p>
+
+<p><strong>Ǔprava textu</strong></p>
+
+<p><code>[gq]</code> - upravý označený text pod visual modom, úpravy širku textu</p>
+
+<p><code>[gqG]</code> - upravý šírku textu od kurzora smerom dole</p>
+
+<p><code>[visual + [: s/old/new]]</code> - vo visual mode stlačim &#39;:&#39; potom s/old/new 
+zamením všetky znaky old vo visual mode na new</p>
+
+<p><code>[visual + [: s/old/new/g]]</code> - vo visual mode zmení všetky znaky</p>
+
+<p><code>[:%s/.$//g]</code> - v normal mode mi vymaže posledný znak v každom riadku</p>
+
+<p><code>[:%s/.\{6}$//]</code> - v normal mode mi vymažé posledných 6 znakov v každom
+riadku</p>
+
+<p><code>[vi + tvar zátvorky]</code> - vo visual móde mi označí obsah textu v dane
+zátvorke a môžem s ním pracovať.</p>
+
+<p><code>[di + tvar zátvorky]</code> - v normal mode mi vymaže obsah danej zátvorky</p>
+
+<p><code>[ci + tvar zátvorky]</code> - robí to isté, čo di</p>
+
+<p><code>[&lt;C-n&gt;]</code> - v normal mode mi visuálne označí slovo na ktorom je 
+kurzor, môžem ho vymazať alebo kopírovať. <code>označi mi aj slovo v zátvorke</code></p>
+
+<p><strong>Visual mode</strong></p>
+
+<p><code>[&lt;C-V&gt;]</code> - môžem vizuálne označovať, kopírovať, mazať text po stlpcoch</p>
+
+<p><code>[&lt;C-V&gt; I + znak]</code> - vizuálne označím kde všade chcem vložiť znak/zanky, cez
+insert mode &#39;I&#39; napíšem ľubovoľný znak, ktorý sa vloží do viacerýčh
+riadkov</p>
+
+<p><strong>Práca s oknami</strong></p>
+
+<p><code>[&lt;C-w&gt; v]</code> - rozdeli mi okno vo vime na verticalnu polovicu</p>
+
+<p><code>[&lt;C-w&gt; s]</code> - horizontalne rozdelenie okna</p>
+
+<p><code>[&lt;C-w&gt; H alebo K]</code> - vymena okien medzi ľavým a pravým | z horizon n
+vertik.</p>
+
+<p><code>[&lt;C-w&gt; n]</code> - vytvori novy buffer (subor ak ho ulozim) na aktualne &#39;cd
+miesto</p>
+
+<p><code>[:bd]</code> - zavrie buffer, na konci vykričník zavrie neuložený buffer</p>
+
+<p><strong>Pohyb</strong></p>
+
+<p><code>[zt]</code> - posunie obsah textu dole pričom miesto kurzora sa nemeni</p>
+
+<p><code>[zb]</code> - posunie obsah textu hore, pozicia kurzora ostava</p>
+
+<p><code>[M]</code> - presun kurzora na stred strany</p>
+
+<p><code>[L]</code> - presun kurzora na spodnú časť strany</p>
+
+<p><code>[H]</code> - presun kurzora na vrch strany</p>
+
+<p><code>[(] alebo [)]</code> - je pohyb medzi vetami riadkami oddelenými bodkou</p>
+
+<p><code>[{] alebo [}]</code> - je pohyb po odstavcoh</p>
+
+<p><code>[cd.]</code> - zmení mi miesto &#39;cd&#39; na to, ktoré mám otvorené v bufferi</p>
+
+<h1>Netrw skratky</h1>
+
+<p><code>[%]</code>- tvorba nového súboru</p>
+
+<p><code>[D]</code>- vymaže súbory aj adresáre</p>
+
+<p><code>[d]</code>- tvorba nového adresára</p>
+
+<p><code>[R]</code>- premenovanie súboru alebo adresára</p>
+
+<p><code>[gb]</code> - presun do adresára označeného cez bookmark</p>
+
+<p><code>[mb]</code> - označenie adresára ako bookmarkd</p>
+
+<p><code>[u]</code> - pohyb naspäť do predchádzajúcich adresárov</p>
+
+<p><code>[-]</code> - pohyb vyššie ku kmeňovým adresárom</p>
+
+<p><code>[a]</code> - videnie .swp a dot file v Explore</p>
+
+<p><code>[md]</code> - označené dva súbory porovná cez vim diff</p>
+
+<p><code>[mu]</code> - zruši označenie všetkýčh súborov</p>
+
+<p><code>[V]</code> -  visualne označí súbory v Explore</p>
+
+<h1>Ranger skratky</h1>
+
+<p><code>[gn]</code> - vytvorí mi novú kartu (tab) s aktuálnym adresárom</p>
+
+<p><code>[tab]</code> - môžem prepínať medzi kartami adresárov</p>
+
+<p><code>[gt]</code> - tiež prepínanie medzi kartami adresárov</p>
+
+<p><code>[&lt;C-w&gt;]</code> - zatvorí mi kartu (tab)</p>
+
+<p><code>[f]</code> - nájde a okamžite otvorí adresár (výborne namiesto &#39;/&#39; na
+vyhľadanie)</p>
+
+<p><code>[r]</code> - vyhodí mi ponuku otvorenia označeného súboru rôznymi programami
+(napr. .exe, .mp4 súbory, .jpg a iné)</p>
+
+<p><code>[H]</code> - naspáť v histórii prezeranie</p>
+
+<p><code>[L]</code> - opak &#39;H&#39; a ide dopredu v histórii prezerenia adresárov</p>
+
+<p><code>[V]</code> - visual mode na označenie súborov</p>
+
+<p><code>[S]</code> - dostane ma do zshellu s adresárom v ktorom som bol v rangeri</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+
+  <div class="wrapper">
+
+
+<div id="footer">
+
+    <b>Kontakt</b> || <a href="https://github.com/spindoc">github</a> ||
+    <a href="http://spindoc.github.io/">blog</a> ||
+    <a href="https://rpubs.com/majo2906">Rpubs</a> 
+
+<p>&copy; 2015 <a href="/about.html">Spindoc blog</a>
+
+</div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

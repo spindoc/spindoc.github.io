@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pyramidy, tarot, tretie oko
+title: Pyramídy, tarot a tretie oko
 categories: ezoterika
 ---
 
@@ -44,6 +44,7 @@ tie pyramidy v predstavách hromadiť a tie predstavy tlačiť do vnútra  `
 fyzického tela`. Môžem do vnútra pyramíd dať meteorit alebo aspoň jeho
 obrázok a celé to skombinovať.
 
+
 > - Nesmiem sa na to hrať, ale brať to seriózne za účelom budovať si automaty
 
 Aby to celé `fungovalo tak musím byť napojený na 10-15 pyramíd aby sa tá
@@ -53,7 +54,7 @@ hlave to dobre fungovalo. Je jedno či mám pyramídu pred sebou alebo je to
 mentálna pyramída. Vždy sa musím `koncentrovať na bod g` aby som z toho
 vyťažil, čo najviac.
 
-# Prax 
+# Prax 
 
 Na začiatok je dobré naladiť sa pozitívne, lebo to vyvolá
 ľahký hypnotický stav, ktorý zlepší prienik do vnútra. Nastaviť sa
@@ -96,6 +97,10 @@ celého pyramidálneho systému`. Treba využívať Crowleyho tarot a marseill
 tarot. Tarotové karty vo vnútri pyramídy ako keby ožili a pomáhaju pri
 výkone vešteckom alebo energetickom. Celý tento systém je veľmi dobrý pre
 základné veštecké naladenie. 
+
+**Odkaz na Crowleho tarot:** </br>
+[Crowley tarot pdf](http://www.thule-italia.net/esoterismo/Aleister%20Crowley/Crowley%20Thoth%20Tarot%20Deck.pdf)
+
 
 Fenomén **tretieho oka** dokážu tieto veštecké techniky rozvíjať, čo má výhodu
 v tom, že automaticky si vybudujem lepšiu intuíciu. Rozvinute tretie oko
