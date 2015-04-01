@@ -66,82 +66,10 @@
 
     
     ,{
-        "title": "Node.js is slow - what gives?",
-        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and\nre-build the site to see your changes. You can rebuild the site in many\ndifferent ways, but the most common way is to run jekyll serve, which\nlaunches a web server and auto-regenerates your site when a file is\nupdated.\n\nTo add new posts, simply add a file in the _posts directory that follows\nthe convention YYYY-MM-DD-name-of-post.ext and includes the necessary\nfront matter. Take a look at the source for this post to get an idea about\nhow it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name) puts &quot;Hi, #{name}&quot; end\nprint_hi(&#39;Tom&#39;) #=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most\nout of Jekyll. File all bugs/feature requests at Jekyll’s GitHub\nrepo. If you have questions, you can ask them on Jekyll’s\ndedicated Help repository.\n\n\nSeve\nJuh\n\n\nHeader 1\n\nHeader 2\n\nHeader 3\n\nThis is not a code span!\n",
-        "link": "/ezoterika/2014/11/11/node-js-is-slow-what-gives.html",
-        "date": "2014-11-11 16:34:28 +0100",
-        "excerpt": "",
-        "seach_omit": ""
-    }
-    
-    
-
-    
-    ,{
-        "title": "LOL at CSS",
-        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
-        "link": "/linux/2014/11/11/lol-at-css.html",
-        "date": "2014-11-11 16:34:28 +0100",
-        "excerpt": "",
-        "seach_omit": ""
-    }
-    
-    
-
-    
-    ,{
         "title": "Intro to PHP",
         "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
         "link": "/vzdelavanie/2014/11/11/intro-to-php.html",
         "date": "2014-11-11 16:34:28 +0100",
-        "excerpt": "",
-        "seach_omit": ""
-    }
-    
-    
-
-    
-    ,{
-        "title": "HTML - how to meet Llamas",
-        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
-        "link": "/zdravie/2014/11/11/html-how-to-meet-llamas.html",
-        "date": "2014-11-11 16:34:28 +0100",
-        "excerpt": "",
-        "seach_omit": ""
-    }
-    
-    
-
-    
-    ,{
-        "title": "Advanced Node.js",
-        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nJekyll also offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n",
-        "link": "/linux/2014/11/11/advanced-node-js.html",
-        "date": "2014-11-11 16:34:28 +0100",
-        "excerpt": "",
-        "seach_omit": ""
-    }
-    
-    
-
-    
-    ,{
-        "title": "33 things you wouldn't believe about CSS",
-        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\nTo add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.\n\nnovy čiara offers powerful support for code snippets:\n\ndef print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.\n\nCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.\n\ndef new(I):\n    return(I)\nprint(I)\n\n\nThis⋅para⋅line⋅starts⋅at⋅the⋅first⋅column.⋅However,\n⋅⋅⋅⋅⋅⋅the⋅following⋅lines⋅can⋅be⋅indented⋅any⋅number⋅of⋅spaces/tabs.\n⋅⋅⋅The⋅para⋅continues⋅here.\n\n⋅⋅This⋅is⋅another⋅paragraph,⋅not⋅connected⋅to⋅the⋅above⋅one.⋅But⋅⋅\nwith⋅a⋅hard⋅line⋅break.⋅\\\nAnd⋅another⋅one.\n",
-        "link": "/jekyll/update/2014/11/11/33-things-you-wouldnt-believe-about-css.html",
-        "date": "2014-11-11 16:34:28 +0100",
-        "excerpt": "",
-        "seach_omit": ""
-    }
-    
-    
-
-    
-    ,{
-        "title": "You're up and running!",
-        "content": "Skuska nazvu a jeho farby\n\n\n\nThe easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the Jekyll Now repository on GitHub.\n",
-        "link": "/vzdelavanie/2014/03/03/Hello-World.html",
-        "date": "2014-03-03 00:00:00 +0100",
         "excerpt": "",
         "seach_omit": ""
     }

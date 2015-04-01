@@ -19,8 +19,11 @@ strong { font-weight: bold; }
 body {
     font-family: $base-font-family; // pisme pre skoro vsetky objekty
     font-size: $base-font-size;
-   border-left: 170px solid #eee; //#E6E6E6;
-   border-right: 170px solid #eee;//#E6E6E6;
+    border: 170px solid #eee;
+    border-top: 25px solid #eee;
+//    border-left: 171px solid #eee; //#E6E6E6;
+//    border-right: 171px solid #eee;//#E6E6E6;
+//    border-bottom: 100px solid #eee;
     line-height: $base-line-height; // vzdialenost riadkov clanko a
     // vsetkych objektov hore 
     font-weight: 300;  // hrubka bezneho textu
