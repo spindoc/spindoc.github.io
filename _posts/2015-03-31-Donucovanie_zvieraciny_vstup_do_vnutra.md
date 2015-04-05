@@ -23,6 +23,10 @@ sčasti aj veštecká technika. Keď sa dotknem týchto oblastí tak je dobré
 > - Do orgánov musím vždy  prenikať  cez nervové dráhy a vždy sa musím
 > presadiť na úkor zvieraciny. Nenechať sa ovládať tupou zvieracinou.
 
+> - Nesmiem sa na to hrať... musím to chcieť žiť !!!
+
+> - Musím vstupovať do vnútra s cieľom, že si idem budovať nový automat.
+
 * Musím si uvedomiť či beriem ezoteriku `ako hru` alebo si chcem vážne
 budovať automaty v mozgu.
 

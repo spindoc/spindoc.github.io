@@ -168,7 +168,8 @@ color:black
 
     h1 {
         font-size: 18px; // velkost pisma headeru ##
-        font-weight: bold;
+        font-weight: 300;
+        margin-top:40px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
