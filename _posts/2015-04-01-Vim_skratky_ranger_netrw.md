@@ -117,6 +117,27 @@ miesto
 `[cd.]` - zmení mi miesto 'cd' na to, ktoré mám otvorené v bufferi
 
 
+# Latex
+
+`[<C-o> alebo <C-i>]` - pohyb kurzora v latexu v latexu z momentálneho
+miesta do predchádzajúceho miesta
+
+`[<leader>ly]` - zobrazi mi všetky labels ako tabulky alebo obrazky do
+grazov. Vyhodí mi na pravo roletu
+
+`[<leader>lt]` - zobrazi mi hlavný obsah .tex súboru, teda
+stromovú štruktúru
+
+`[<leader>lg]` - ukáže či beži compilácie cez \ll
+
+`[<leader>le]` - ukáže mi chyby/upozornenie (vypnuté automaticky)
+
+`[<leader>ll]` - stači raz stlačiť a potom sa mi bude meniť pdf hneď po
+uložení
+
+`[']]']` - v insert mode stlačím ']]' a pridá mi \end{section} riadok
+
+
 # Netrw skratky
 
 `[%]`- tvorba nového súboru
