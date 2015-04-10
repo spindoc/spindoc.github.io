@@ -92,3 +92,4 @@ automat. Musím byť trpezlivý a prijať tie nepríjemné pocity.
 
 > - Samotnú koncentráciu zlepším prienikom do svojho vnútra a nácvikom
 > koncentračných cvičení.
+

@@ -183,7 +183,8 @@ pre {
   font-weight: bold;
   background: #eee;
   text-align: left;
-  padding-left: 30px; }
+  padding-left: 30px;
+  margin-top: -15px; }
   .site-title, .site-title:visited {
     color: maroon; }
 

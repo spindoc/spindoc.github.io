@@ -122,6 +122,9 @@ miesto
 `[<C-o> alebo <C-i>]` - pohyb kurzora v latexu v latexu z momentálneho
 miesta do predchádzajúceho miesta
 
+`[<C-space>]` - doplňovanie citácii a referencii (tables, figures - ich
+čísla)
+
 `[<leader>ly]` - zobrazi mi všetky labels ako tabulky alebo obrazky do
 grazov. Vyhodí mi na pravo roletu
 
