@@ -86,7 +86,7 @@ neurónov.`. Rozšlapania mozgu je schopnosť ako ovládať ďalšie centrá,
 ktoré sú pod kontrolou zvieraciny. Môj mozog je ako cudzie mesto, ktoré sa
 pokúsim získať.
 
-> Do vnútra/neurónov si môžem uľahčiť cez neustály tranz. Tranz môže byť
+>- Do vnútra/neurónov si môžem uľahčiť cez neustály tranz. Tranz môže byť
 > zvukový (bubny) alebo pohybový (šúchanie prstvo alebo poklepkávanie),
 > ide hlavne o monotónny pohyb.
 
