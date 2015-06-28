@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Vimtex a tex snippety</title>
+  <meta name="description" content="Skratky pre snippety">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  <link rel="canonical" href="/linux/2015/04/10/Vimtex_a_tex_snippety.html">
+</head>
+
+ 
+  <body>
+      <!--  <div class="wrapper"> --> <!-- toto urcje sirku hornej ciary !!! -->
+       <div class="header">
+
+       <!-- <img style="max-width:1024px;" src="/images/chaos.jpg"> -->
+         <div class="site-title">
+            Poznámkový &nbsp; blog
+            </div> 
+
+        <nav class="slogan"> 
+                <a href="/index.html" class="grey">Domov</a> 
+                <a href="/zdravie.html" class="black">Zdravie</a> 
+                <a href="/psychika.html" class="black">Psychika</a> 
+                <a href="/ezoterika.html" class="black">Ezoterika</a> 
+                <a href="/linux.html" class="black">Linux</a> 
+                <a href="/vzdelavanie.html" class="black">Vzdelávanie</a> 
+          <nav class="hladat">
+          <form method="get" action="/search" data-search-form>
+            <input type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
+            <input type="submit" name="btn" id="btn" value="Hľadaj" />
+          </form>
+          </nav>
+          </nav>
+    </div>
+
+
+        <!-- </div> -->
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Vimtex a tex snippety</h1>
+    <p class="post-meta">Apr 10, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <p><strong>Skratky pre snippety</strong></p>
+
+<p><code>[&lt;C-l&gt;]</code> - keď napíšem celý názov snippetu tak cez <C-l> mi snippet
+roztiahne automaticky</p>
+
+<p><code>[it &lt;C-l&gt;]</code> - pridá mi automaticky \item</p>
+
+<p><code>[tab]</code> - pridá mi tabular</p>
+
+<p><code>[table]</code> - pridá mi celú table aj s tabular-om</p>
+
+<p><code>[fig]</code> - pridá mi \begin{figure} aj s includegraphics, caption, label</p>
+
+<p><code>[enum]</code> - pridá mi \begin{enumerate} s \item a \end{enumerate}</p>
+
+<p><code>[sec]</code> - pridá mi \section kde zadám názov a navyše môžem aj label aby
+som očísloval sekciu</p>
+
+<p><code>[sub]</code> - prida mi \subsection rovnako aj s labelom ako u <code>sec</code></p>
+
+<p><code>[ssub]</code> - je subsubsection a rovnako funguje ako hore</p>
+
+<p><code>[subs]</code> - to iste ako ssub</p>
+
+<p><code>[up]</code> - pridá mi \usepackage aj s {options}{package}</p>
+
+<p><code>[ci]</code> - doplní mi \citep{} takže hned môžem cez <C-space> doĺňať nové
+referencie</p>
+
+<p><code>[bf]</code> - doplni mi \textbf{} do zátvorky dávam bold písmo</p>
+
+<p><code>[under]</code> - doplni mi \underline{}</p>
+
+<p><code>[emp]</code> - doplni mi \emph{} na zvýraznenie písma</p>
+
+<p><code>[sc]</code> - doplni mi \textsc{} kde všetko, čo dám do zátvorky je napísané
+ako cez Caps lock, všetko sú capital letters.</p>
+
+<p><code>[tikz]</code> - pridá mi \begin{figure} ako cez fig len v centre snippetu je
+\begin{tikzpicture}</p>
+
+<p><code>[href]</code> - pridá mi \href{}{} kde na ľavú stranú dám link a pravú názov
+linku modrou</p>
+
+<p><code>[cr]</code> - pridá mi \cref{} možnosť aj s doplňovaním</p>
+
+<p><strong>Vimtex</strong></p>
+
+<p><code>[&lt;C-o&gt; alebo &lt;C-i&gt;]</code> - pohyb kurzora v latexu v latexu z momentálneho
+miesta do predchádzajúceho miesta</p>
+
+<p><code>[&lt;C-space&gt;]</code> - doplňovanie citácii a referencii (tables, figures - ich
+čísla)</p>
+
+<p><code>[&lt;leader&gt;ly]</code> - zobrazi mi všetky labels ako tabulky alebo obrazky do
+grazov. Vyhodí mi na pravo roletu</p>
+
+<p><code>[&lt;leader&gt;lt]</code> - zobrazi mi hlavný obsah .tex súboru, teda
+stromovú štruktúru</p>
+
+<p><code>[&lt;leader&gt;le]</code> - ukáže mi chyby/upozornenie (vypnuté automaticky)</p>
+
+<p><code>[&lt;leader&gt;ll]</code> - stači raz stlačiť a potom sa mi bude meniť pdf hneď po
+uložení</p>
+
+<p><code>[&#39;]]&#39;]</code> - v insert mode stlačím &#39;]]&#39; a pridá mi \end{section} riadok</p>
+
+<p><code>[dse]</code> - vymaže mi prostredie napr. začínajúce \begin{nieco} \end{nieco}</p>
+
+<p><code>[cse]</code> - môžem modifkovať prostredie napr \begin{nieco} a \end{nieco}
+môžem cez toggle bar na dolnej strane editovať názov prostredia (niečo na
+štýl search and replace)</p>
+
+<p><strong>Latex funkcie</strong></p>
+
+<p><code>[termin\footnote{nieco o termine}]</code> - Dá mi nad termín v texte v pravo
+hore malú jednotku a v zátvorke je poznámka pod čiarov, kde je
+napísané vysvetlenie termínu</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+
+  <div class="wrapper">
+
+
+<div id="footer">
+
+    <b>Kontakt</b> || <a href="https://github.com/spindoc">github</a> ||
+    <a href="http://spindoc.github.io/">blog</a> ||
+    <a href="https://rpubs.com/majo2906">Rpubs</a> 
+
+<p>&copy; 2015 <a href="/about.html">Spindoc blog</a>
+
+</div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
