@@ -4,4 +4,12 @@ title: Silvovka - základy
 categories: ezoterika
 ---
 
-Nový článok o Silvovke
+Silvovka a jej princípy sú dobré na:
+
+- rozvoj intelektu
+
+- ovládnutie mozgu (psychologických reakcií, sile vôle, správania)
+
+- spomalenie starnutia mozgu
+
+
