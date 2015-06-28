@@ -47,8 +47,8 @@ atď...)
 
 Na začiatku mi môže pomôčť aj sugerácia, že som užil látky od psychiatria
 pre lepšie ovládanie neurónov a lepší prienik do vnútra.
-<br/>
 
+<br/>
 **Výživa mozgu**
 
 Pre správne fungovanie mozgu potrebujem:
@@ -70,7 +70,6 @@ Pre správne fungovanie mozgu potrebujem:
 - psychické nastavie aby mozog nepodliehal starnutiu 
 
 <br/>
-
 **Prax**
 
 Ja si uvedomujem, že som človek v strednom mozgu a odtiaľ musím zaútočiť
