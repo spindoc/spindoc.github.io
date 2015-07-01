@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Silvovka - základy
-categories: ezoterika
+categories: ezoterika, zdravie
 ---
 
 Silvovka a jej princípy sú dobré na:
