@@ -45,6 +45,26 @@ cez 4 body na hlave kde si spôsobím bolesť (čelo, zatylok, spánky).
 Spomienku neusťale rýchlo vyberám v strednom mozgu (z hora, z hora, z hora
 atď...)
 
+`Vyberanie spomienok do stredneho mozgu`
+Ide o to aby som extrémne rýchlo vyberal spomienky (masivny výber),
+neustale točil smer pohľadov na objekt (zhora, zlava, sprava atd). Najprv
+treba urobit náčrt objektu (ceruzkou, ľahkú kontúru). Cvičit prenos
+spomienkových obrazok do stredného mozgu (zmenšenina) alebo priamo do
+mozočku. Treba zabodovať objekt.
+
+`Ako poradil Saša?`
+Najprv koncentrácia asi do stredu mozgu.
+Koncentrácia zmyslov a sugerácia chémie na jazyku a aj končeky prstov a povrch kože.
+Všetko smeruje do stredu mozgu.
+Prečo do mozočku?  Môže a nemusí byť.
+Maličky bod - tvoríte ho z neustáleho vyberania spomienok a ukladanie na jedno miesto - trenujete masívnosť výberu a ukladanie a udržanie.
+Potom väčšie objekty.
+Cvičite pravidelne počas troch rokov a potom si na to vybudujete v mozgu automat - mimoriadnu schopnosť.
+A potom to cvičíte trvalo a praktizujete na všetko - písmena, menšie obrázky.
+Problém je, že to chcete hneď a okamžite a to tak nefunguje.
+Máte problém v tom, že nie ste typ na tvrdý výcvik, priliš špekulujete a málo cvičite.
+Túto schopnosť treba v mozgu nadobudnúť cvičením a cvičením. 
+
 Na začiatku mi môže pomôčť aj sugerácia, že som užil látky od psychiatria
 pre lepšie ovládanie neurónov a lepší prienik do vnútra.
 
