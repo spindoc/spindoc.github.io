@@ -65,8 +65,6 @@ Problém je, že to chcete hneď a okamžite a to tak nefunguje.
 Máte problém v tom, že nie ste typ na tvrdý výcvik, priliš špekulujete a málo cvičite.
 Túto schopnosť treba v mozgu nadobudnúť cvičením a cvičením. 
 
-Doplnok
-
 Na začiatku mi môže pomôčť aj sugerácia, že som užil látky od psychiatria
 pre lepšie ovládanie neurónov a lepší prienik do vnútra.
 
