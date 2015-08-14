@@ -3,13 +3,11 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables  // HELVETICA povodne
-$base-font-family:  helvetica, arial, clean, sans-serif; // obycajny text
+$base-font-family:  arial, clean, sans-serif; // obycajny text
 // okrem linkov a kodov
 
-$base-font-size:   14.5px; // velkost pismen
+$base-font-size:   15.0px; // velkost pismen
 $small-font-size:  $base-font-size * 0.875; // farba datumov ako zmensena
 // velkost zakladneho pisma
 $base-line-height: 1.5; // vzdialenosti medzi riadkami 
@@ -17,9 +15,9 @@ $base-line-height: 1.5; // vzdialenosti medzi riadkami
 $spacing-unit:     30px; // vzdialenosti medzi objektami riadky 
 // napriklad aj okraje bulletov
 
-$text-color:       #000; // toto je farba bezneho pisma v clankoch/kodoch
-$background-color: #fff; // farba pozadia celkoveho 
-$brand-color:      #0000CD  ; // farba odkazov, linkov, nazvy clankov -
+$text-color:#000; // toto je farba bezneho pisma v clankoch/kodoch
+$background-color:#fff;// farba pozadia celkoveho 
+$brand-color:#0000CD;   // farba odkazov, linkov, nazvy clankov 
 // medium blue
 
 $grey-color:       #828282;

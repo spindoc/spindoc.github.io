@@ -7,9 +7,9 @@
 }
 
 code {
-font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+font-family:'Arial','Courier', monospace;
 }
-
+/* Bitstream Vera Sans Mono - toto je pisme pre code */
 .highlight .c { color:  #A4A4A4} /* Comment */ /* comment pre python */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */

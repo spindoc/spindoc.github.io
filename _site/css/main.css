@@ -22,8 +22,8 @@ strong {
  * Basic styling
  */
 body {
-  font-family: helvetica, arial, clean, sans-serif;
-  font-size: 14.5px;
+  font-family: arial, clean, sans-serif;
+  font-size: 15px;
   border: 170px solid #eee;
   border-top: 25px solid #eee;
   line-height: 1.5;
@@ -54,7 +54,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 12.6875px; }
+  font-size: 13.125px; }
 
 /**
  * Lists
@@ -103,7 +103,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 14px;
+  font-size: 1.0em;
   background-color: #E6F3F8;
   border: 1px solid #eee; }
 
